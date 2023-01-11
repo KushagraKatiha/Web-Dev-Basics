@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushagra</title>
+    <style>*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #818181;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #0c0a0a;
+}       
+.header_bar{
+    display: flex;
+    justify-content: space-around;
+}
+.header_bar a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header_bar a:hover{
+    color: #f49ff4;
+    text-decoration: underline;
+}
+/* Section 1 */
+.about{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #0e0652;
+}
+.separate{
+    border: 2px solid #000000;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-img{
+    margin-left: 10px;
+    margin-top:10px;
+}
+.profile-img img{
+    height: 300px;
+    width: 200px;
+    filter: brightness(90%);
+}
+.profile-text{
+    margin-left: 15px;
+}
+.detail{
+    color: #000000;
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: 900;
+}
+.profile-text p{
+    color: #0e0652;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+}
+/* Section => 2 */
+.heading{
+    text-align: center;
+    color:#0e0652;
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.schooling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.schooling-text{
+    margin-left: 10px;
+    color: #0a101b;
+    font-size: 25px;
+    text-align: left;
+    width: 1300px;
+    font-weight: 800;
+}
+.schooling-image img{
+    margin-right: 10px;
+    width: 600px;
+    height: 300px;
+}
+.schooling-imagetwo img{
+    margin-left: 10px;
+    width: 600px;
+    height: 300px;
+}
+/* Footer */
+.footer{
+    display: flex;
+    background-color: #0e0652;;
+    flex-direction: column;
+    height: 200px;
+}
+.footer-heading{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #818181;
+}
+.footer-text{
+    margin-top: 10px;
+    margin-left:20px;
+}
+.footer-text-main{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #818181;
+}
+
+</style>
+</head>
+<body>
+    <header class="header">
+        <nav class="header_bar">
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Education</a></p>
+            <p><a href="#">Career</a></p>
+            <p><a href="#">Profession</a></p>
+        </nav>
+    </header>
+    <h1 class="about">About</h1>
+    <section class="profile">
+        <div class="profile-img">
+            <img src="./Assests/Images/My website/mypic.jpg" alt="myphoto">
+        </div>
+        <div class="profile-text">
+            <p><span class="detail">Name:</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Kushagra Katiha</p>   
+            <br>        
+            <p><span class="detail">Programme:</span> &nbsp B.Tech</p>            
+            <p><span class="detail">Semester:</span>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp4<sup>th</sup> </p>
+            <br>
+            <p><span class="detail">Course:</span>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Frontend Development</p>
+            <p><span class="detail">College:</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp College of Computing Sciences and Information Technology</p>
+        </div>
+    </section>
+    <hr class="separate">
+    <h2 class="heading">Schooling</h2>
+    <section class="schooling">
+        <div class="schooling-text">
+            <p class="schooling-text-main">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A fugit alias voluptatum ipsa numquam delectus ut atque recusandae cupiditate! Dolores hic officia deleniti recusandae, itaque veniam labore corrupti nisi laudantium molestias adipisci libero sit sequi sapiente illum harum, velit dicta dolorum ea mollitia nam assumenda temporibus reprehenderit! Illum ratione nisi et at repellendus sequi natus tenetur libero esse, fugiat, alias, quae impedit! Omnis neque ullam possimus assumenda, molestiae iste necessitatibus adipisci repudiandae ducimus tempora vero, provident, explicabo autem voluptates distinctio perferendis temporibus rem! Deleniti quidem obcaecati odit nisi. Voluptate, culpa. Facilis error minima rem nobis aliquam mollitia odit molestiae ipsam.</p>
+        </div>
+        <div class="schooling-image">
+            <img src="./Assests/Images/My website/school.jpeg" alt="school">
+        </div>
+    </section>
+    <hr class="separate">
+    <h2 class="heading">College</h2>
+    <section class="schooling">
+        <div class="schooling-imagetwo">
+            <img src="./Assests/Images/My website/college.webp" alt="school">
+        </div>
+        <div class="schooling-text">
+            <p class="schooling-text-main">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A fugit alias voluptatum ipsa numquam delectus ut atque recusandae cupiditate! Dolores hic officia deleniti recusandae, itaque veniam labore corrupti nisi laudantium molestias adipisci libero sit sequi sapiente illum harum, velit dicta dolorum ea mollitia nam assumenda temporibus reprehenderit! Illum ratione nisi et at repellendus sequi natus tenetur libero esse, fugiat, alias, quae impedit! Omnis neque ullam possimus assumenda, molestiae iste necessitatibus adipisci repudiandae ducimus tempora vero, provident, explicabo autem voluptates distinctio perferendis temporibus rem! Deleniti quidem obcaecati odit nisi. Voluptate, culpa. Facilis error minima rem nobis aliquam mollitia odit molestiae ipsam.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3 class="footer-heading">Contact: </h3>
+        <div class="footer-text">
+            <p class="footer-text-main">Kushagra Katiha</p>
+            <p class="footer-text-main">96XXXXXX61</p>
+            <p class="footer-text-main">2nd E 85, Double Storey,OCF Estate </p>
+            <p class="footer-text-main">Shahjahanpur 242001</p>
+        </div>
+    </footer>
+</body>
+</html>
