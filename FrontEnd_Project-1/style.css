@@ -59,8 +59,10 @@ nav ul{
 nav ul li a{
     color: #525558;
 }
-nav ul li:hover{
-    text-decoration: none;
+nav ul li a:hover{
+    font-size: 20px;
+    color: #129b9b;
+    text-decoration: underline;
     font-weight: 900;
 }
 .search-field{
