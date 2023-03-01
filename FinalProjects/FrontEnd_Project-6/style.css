@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+body{
+    background-color: #f6f8fa;
+}
+
+/* Main Design */
+/* Header  */
+.main_page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./Photos/mainBackground.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 125vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.main_header{
+    margin: 3vh 8vw 1vh 8vw;
+}
+
+.main_nav-logo{
+    height: 45px;
+    width: 120px;
+}
+.main_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:1vh 5vw 4vh 5vw ;
+}
+
+.main_nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 37vw;
+}
+
+.main_nav-listitem-link{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Main-Main Content */
+.main_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14vw;
+    margin-top: 10vh;
+    align-items: flex-start;
+}
+
+.main_content-heading{
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.main_content-subheading{
+    color: #ffffff;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.main_content-button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #6663e9;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+/* Main Footer Design */
+.main_footer{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin: 300px 100px;
+    padding: 50px 30px;
+    border-radius: 30px;
+    position: static;
+}
+
+/* Card Section Design */
+
+.card_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_section-heading{
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card_section-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+}
+
+.card_section-card{
+    position: relative;
+}
+
+.img{
+    height: 430px;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+}
+
+.card_section-card-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    position: relative;
+    bottom: 66px;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    width: 342px;
+    margin-left: 26px;
+}
+.card_section-card-details-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card_section-card-details-button{
+    padding: 20px 29px;
+    font-size: 15px;
+    border: none;
+    border-radius: 26px;
+    background-color: #6663e9;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.card2{
+    top: 40px;
+
+}
+.card3{
+    top: 90px;
+
+}
+.card4{
+    top: 90px;
+}
+.card5{
+    top:40px ;
+}
+
+.card8{
+    top:40px ;
+}
+.card9{
+    top:90px ;
+}
+
+.card_section-card-details-left h1{
+    font-size: 30px;
+}
+.card_section-card-details-left p{
+    font-size: 22px;
+    font-weight: 700;
+    color: #6663e9;
+}
+
+/* Section=>3 Details Part-1 Design */
+.details-1{
+    margin-top: 150px;
+    display: flex;
+}
+.details-1-left{
+    display: flex;
+    width: 40%;
+}
+.mainimg{
+    position: relative;
+    bottom: 60px;
+    right: 446.8px;
+    border-radius: 50px;
+}
+
+/* Details-1 Right */
+.details-1-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-left: 136px;
+    margin-top: 50px;
+}
+
+.details-1-right h1{
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 1.3em;
+}
+
+.details-1-right p{
+    font-size:18px;
+    font-weight: 500;
+    color: #585C65;
+}
+
+.details-1-right button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #6663e9;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.details-2{
+    margin-top: 150px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.details-2-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 80px;
+    /* margin-bottom: 50px; */
+    margin-left: 45px;
+}
+.details-2-left h1{
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 1.3em;
+}
+
+.details-2-left p{
+    font-size:18px;
+    font-weight: 500;
+    color: #585C65;
+}
+
+.details-2-left button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #6663e9;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.details-2-right{
+    display: flex;
+}
+
+.baseimg2{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.mainimg2{
+    position: relative;
+    bottom: 57px;
+    right: -453px;
+    border-radius: 50px;
+}
+
+/* Newsletter Design */
+.newsletter{
+    margin-top: 115px;
+    height: 480px;
+    margin: 115px 70px;
+    border-radius: 70px;
+    background-color: #6663E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.newsletter-main{
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.newsletter-main h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 62px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.newsletter-main p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.newsletter-subscribe{
+    margin-top: 35px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter-email{
+    background-color: #5654D1;
+    border: none;
+    border-radius: 40px;
+    padding-left: 64px;
+    width: 486px;
+    height: 62px;
+    margin-left: 0;
+    color: #757584;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mailimg{
+    position: relative;
+    left: 55px;
+    top: 6px;
+}
+
+.newsletter-button{
+    margin-left: 15px;
+    border: none;
+    border-radius: 50px;
+    padding: 17px 32px;
+    color: #6663E9;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 47px;
+}
+
+/* Footer Design */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+    margin-left: 100px;
+    margin-right: 101px;
+}
+ul{
+    list-style: none;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.footer-left ul{
+    display: flex;
+    gap: 23px;
+} 
+
+.footer-left p{
+    font-size: 20px;
+}
+
+/* Footer Right */
+.footer-right-list{
+    display: flex;
+    gap: 112px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-right-sublist{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    font-size: 24px;
+    font-weight: 400;
+}
